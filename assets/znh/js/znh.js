@@ -54,7 +54,7 @@
  	}
 
  	function add_container(url, id) {
- 		var container = "<div id='" + id + "'><iframe src='" + url + "' style='min-height:1000px; width:100%; border:0px'></iframe></div>";
+ 		var container = "<div id='" + id + "'><iframe src='" + url + "' style='min-height:800px; width:100%; border:0px'></iframe></div>";
  		$('#container').append(container);
  	}
 
@@ -108,6 +108,15 @@ var open_message_dialog = function(message, code) {
 
 var close_message_dialog = function() {
 	$(window.parent.document).find('body').find('.message-dialog').remove();
+}
+
+var open_mask = function() {
+	var mask = "<div class='mask'></div>";
+	$(window.parent.document).find("body").append(mask);
+}
+
+var close_mask = function() {
+	$(window.document).find('.mask').remove();
 }
 
 

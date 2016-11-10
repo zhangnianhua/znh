@@ -1,55 +1,108 @@
-table, tr, td {
+table,
+tr,
+td {
 	font-size: 12px;
 }
+
 .table > tbody > tr > td {
-			vertical-align: middle;
-	}
+	vertical-align: middle;
+}
+
 .page-tab {
 	clear: both;
 	position: fixed;
 	margin: 0;
 	padding: 0;
-	font-size:0
+	font-size: 0
 }
+
 .page-tab > li {
 	padding: 0;
 	border: 1px solid white;
 	clear: both;
 	float: none;
-	height : 45px;
-	width : 100px;
+	height: 45px;
+	width: 100px;
 	background-color: #ecedf0;
 	display: inline-block;
 	list-style-type: none;
 	font-size: 14px;
-	margin : 0;
+	margin: 0;
 	font-weight: 400px;
 	vertical-align: middle;
 	text-align: center;
 	line-height: 45px;
 	cursor: pointer;
 }
-.overflow-hide {overflow: hidden;}
-.page-tab > .active {background-color: #3BBFB4;}
-.page-tab > .active > span{color: white;}
-.close {direction: none;margin-top: 5px; width: 14px; height: 14px;font-size: 12px; margin-right: 4px;}
-.page-tab > li:hover{background-color: #3BBFB4; color: white;}
-.padding-0{padding: 0;}
-.padding-10{padding: 10px;}
-.margin-0{margin: 0;}
-.margin-10{margin: 10px;}
-.mask {       
-            position: absolute; top: 0px; filter: alpha(opacity=60); background-color: #777;     
-            z-index: 500; left: 0px;     
-            opacity:0.5; -moz-opacity:0.5;   
-            width: 100%; height: 100%;  
-        } 
+
+.overflow-hide {
+	overflow: hidden;
+}
+
+.page-tab > .active {
+	background-color: #3BBFB4;
+}
+
+.page-tab > .active > span {
+	color: white;
+}
+
+.close {
+	direction: none;
+	margin-top: 5px;
+	width: 14px;
+	height: 14px;
+	font-size: 12px;
+	margin-right: 4px;
+}
+
+.page-tab > li:hover {
+	background-color: #3BBFB4;
+	color: white;
+}
+
+.padding-0 {
+	padding: 0;
+}
+
+.padding-10 {
+	padding: 10px;
+}
+
+.margin-0 {
+	margin: 0;
+}
+
+.margin-10 {
+	margin: 10px;
+}
+
+.mask {
+	position: absolute;
+	top: 0px;
+	filter: alpha(opacity=60);
+	background-color: #777;
+	z-index: 500;
+	left: 0px;
+	opacity: 0.5;
+	-moz-opacity: 0.5;
+	width: 100%;
+	height: 100%;
+}
+
 .message-mask {
-		position: absolute; top: 0px; filter: alpha(opacity=60); background-color: #777;     
-            z-index: 1200; left: 0px;     
-            opacity:0.5; -moz-opacity:0.5;   
-            width: 100%; height: 100%;  
-	}   
+	position: absolute;
+	top: 0px;
+	filter: alpha(opacity=60);
+	background-color: #777;
+	z-index: 1200;
+	left: 0px;
+	opacity: 0.5;
+	-moz-opacity: 0.5;
+	width: 100%;
+	height: 100%;
+}
+
 .dialog {
 	position: fixed;
 	padding: 0;
@@ -62,6 +115,7 @@ table, tr, td {
 	background-color: white;
 	z-index: 1010;
 }
+
 .dialog-header {
 	height: 49px;
 	background-color: #3BBFB4;
@@ -72,18 +126,19 @@ table, tr, td {
 	text-align: left;
 	vertical-align: middle;
 	padding: 12px;
-
 }
 
 .dialog-close {
 	float: right;
 }
+
 .dialog-container {
 	width: 100%;
 	height: 400px;
 	margin-top: 15px;
 	border: none;
 }
+
 .message-dialog {
 	position: fixed;
 	padding: 0;
@@ -97,6 +152,7 @@ table, tr, td {
 	z-index: 1500;
 	border-radius: 4px 4px 0px 0px;
 }
+
 .message-dialog-header {
 	width: 100%;
 	height: 40px;
@@ -106,21 +162,28 @@ table, tr, td {
 	vertical-align: middle;
 	color: white;
 }
+
 .message-dialog-message {
 	padding: 20px;
 	vertical-align: middle;
 	font-size: 14px;
 }
+
 .message-error {
 	background-color: #ec971f;
 }
+
 .table-hover-sm {
 	font-size: 12px;
 }
-.table-hover-sm > th, tr, td{
+
+.table-hover-sm > th,
+tr,
+td {
 	height: 20px;
 	vertical-align: middle;
 }
+
 .navbar-right > div > ul > li {
 	text-decoration: none;
 	list-style: none;
@@ -134,6 +197,36 @@ table, tr, td {
 	border-radius: 5px;
 	color: white;
 }
-.navbar-right > div > ul > li > a, a:hover {
+
+.navbar-right > div > ul > li > a,
+a:hover {
 	color: white;
+}
+
+.sidebar-tab {
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	margin-top: 40px;
+}
+
+.sidebar-tab > li {
+	width: 100%;
+	height: 30px;
+	background-color: #3BBFB4;
+	color: white;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	vertical-align: middle;
+	line-height: 30px;
+	border-bottom: 1px solid blanchedalmond;
+	list-style: none;
+	cursor: pointer;
+}
+
+.sidebar-tab-li-border {
+	padding: 2px 10px;
+	border-radius: 3px;
+	background-color: #ed9c28;
 }
